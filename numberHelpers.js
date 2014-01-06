@@ -1,6 +1,6 @@
 var minInArray = Math.min.apply(Math, array);
 
-var maxInArry = Math.max.apply(Math, array);
+var maxInArray = Math.max.apply(Math, array);
 
 function modeArray(array)
 {
