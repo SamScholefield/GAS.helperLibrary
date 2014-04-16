@@ -5,8 +5,8 @@ function isValidDate(d) {
 }
 
 function shortDate(d){  
-  var dayArray = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
-  var curr_day = d.getDay() - 1;
+  var dayArray = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  var curr_day = d.getDay();
   var curr_date = d.getDate();
     if(curr_date < 10){curr_date = "0" + curr_date;}
   var curr_month = d.getMonth() + 1;
